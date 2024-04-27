@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "951992438125",
+    "project_id": "pfemariem-a07b5",
+    "storage_bucket": "pfemariem-a07b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951992438125:android:b04da2ddfd1f2473701e64",
+        "android_client_info": {
+          "package_name": "com.example.pfe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVq7vyHe7taXxjzTMWcI6rQWZXmSlrHH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
