@@ -1,6 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:pfe/screens/documentationScreen.dart';
+import 'package:pfe/screens/home_screen.dart';
+import 'package:pfe/screens/notificationScreen.dart';
 import 'package:pfe/screens/signin_screen.dart';
+import 'package:pfe/screens/tipsScreen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,7 +31,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SignInScreen(),
+      debugShowCheckedModeBanner: false, // Hide the debug banner
+      home: HomeScreen(),
     );
   }
 }

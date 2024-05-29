@@ -11,7 +11,8 @@ Image logoWidget(String imageName) {
 }
 
 TextField reusableTextField(String text, IconData icon, bool isPasswordType,
-    TextEditingController controller) {
+    TextEditingController controller,
+    {TextInputType keyboardType = TextInputType.text}) {
   return TextField(
     controller: controller,
     obscureText: isPasswordType,
